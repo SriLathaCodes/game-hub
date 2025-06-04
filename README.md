@@ -21,7 +21,7 @@ Live Demo: [Click here to explore GameHub](https://mygame-clhy1svkb-srilathas-pr
 - ❌ Graceful error handling
 - 🌙 Light and Dark mode toggle
 
-  **Tech Stack** :
+**Tech Stack** :
 
 - React 18 (with Hooks)
 - TypeScript
