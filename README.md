@@ -1,50 +1,78 @@
-# React + TypeScript + Vite
+**Title** :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎮 GameHub – A React Game Discovery App
 
-Currently, two official plugins are available:
+**Description** :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GameHub is a responsive and dynamic game discovery web app built using React, TypeScript, and Chakra UI. It allows users to browse, search, and filter video games by genre and platform. The data is fetched from the RAWG Video Games Database API.
 
-## Expanding the ESLint configuration
+This project showcases modern React practices including hooks, reusable components, state management, and responsive UI design.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Demo** :
 
-- Configure the top-level `parserOptions` property like this:
+Live Demo: [Click here to explore GameHub](https://mygame-clhy1svkb-srilathas-projects-02463583.vercel.app/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Feautres** :
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- 🔍 Search for games by title
+- 🎮 Filter games by genre and platform
+- 📱 Fully responsive layout (mobile/tablet/desktop)
+- ⏳ Loading spinners while fetching data
+- ❌ Graceful error handling
+- 🌙 Light and Dark mode toggle
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+  **Tech Stack** :
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- React 18 (with Hooks)
+- TypeScript
+- Chakra UI
+- RAWG API
+- Vercel (for deployment)
+
+  **Title** :
+
+# 🎮 GameHub – A React Game Discovery App
+
+**Description** :
+
+GameHub is a responsive and dynamic game discovery web app built using React, TypeScript, and Chakra UI. It allows users to browse, search, and filter video games by genre and platform. The data is fetched from the RAWG Video Games Database API.
+
+This project showcases modern React practices including hooks, reusable components, state management, and responsive UI design.
+
+**Demo** :
+
+Live Demo: [Click here to explore GameHub](https://mygame-clhy1svkb-srilathas-projects-02463583.vercel.app/)
+
+**Feautres** :
+
+- 🔍 Search for games by title
+- 🎮 Filter games by genre and platform
+- 📱 Fully responsive layout (mobile/tablet/desktop)
+- ⏳ Loading spinners while fetching data
+- ❌ Graceful error handling
+- 🌙 Light and Dark mode toggle
+
+  **Tech Stack** :
+
+- React 18 (with Hooks)
+- TypeScript
+- Chakra UI
+- RAWG API
+- Vercel (for deployment)
+
+ **Author** : 
+ 
+ **Sri Latha**
+- [LinkedIn Profile](https://www.linkedin.com/in/srilatha-s-1b4538283/)
+
+
+## 📦 Getting Started 
+
+If you'd like to run this project locally:
+
+```bash
+git clone https://github.com/SriLathaCodes/game-hub.git
+cd game-hub
+npm install
+npm run dev
+
